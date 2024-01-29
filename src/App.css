@@ -74,6 +74,10 @@ nav {
   object-fit: cover;
 }
 
+.location--info {
+  padding: 20px 0;
+}
+
 .location--map {
   display: flex;
   align-items: center;
