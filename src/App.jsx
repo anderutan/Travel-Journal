@@ -1,9 +1,14 @@
 import './App.css';
+import Navbar from './assets/Navbar';
+import Card from './assets/Card';
+import data from './data';
 
 function App() {
+  const cards = data.map((item) => <Card {...item} />);
   return (
     <>
-      <h1>hello</h1>
+      <Navbar />
+      <div className='container'>{cards}</div>
     </>
   );
 }
